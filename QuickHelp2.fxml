@@ -5,7 +5,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group2.SceneQuickHelp">
    <children>
       <BorderPane layoutY="-1.0" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #0A6B34;">
          <top>
@@ -52,14 +52,14 @@
                               <Font size="18.0" />
                            </font>
                         </TextArea>
-                        <TextArea layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="429.0" style="-fx-background-color: #0a6b34;" text="&#10;Q5: How can i change my infromation?&#10;&#10;-Navagite to the Student Information page &#10;select Edit Information&#10;&#10;-Select the infromation you need to change &#10;&#10;-Enter new infromation in the correct format and &#10;Save changes by clicking Save.">
+                        <TextArea layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="429.0" style="-fx-background-color: #0a6b34;" text="&#10;Q5: How can i change my infromation?&#10;&#10;- Navigate to the Student Information page select Edit &#10;Information&#10;&#10;- Select the infromation you need to change &#10;&#10;- Enter new infromation in the correct format and &#10;save changes by clicking Save">
                            <font>
-                              <Font size="16.0" />
+                              <Font size="18.0" />
                            </font>
                         </TextArea>
-                        <TextArea layoutX="438.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="429.0" style="-fx-border-color: #0a6b34;" text="&#10;Q6: How can find more infromation about my course &#10; and teacher?&#10;&#10;-Login with your Student id and password.&#10;&#10;-Click on the Course infromation tab to view registered&#10;courses,information about instrustor,class#,print, and &#10;course infromation.">
+                        <TextArea layoutX="438.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="429.0" style="-fx-border-color: #0a6b34;" text="&#10;Q6: How can I find more infromation about my course &#10; and teacher?&#10;&#10;- Login with your Student id and password.&#10;&#10;- Click on the Course infromation tab to view &#10;registered courses and instructor's information&#10;&#10;- The courses information can be print out by click &#10;print">
                            <font>
-                              <Font size="17.0" />
+                              <Font size="18.0" />
                            </font>
                         </TextArea>
                      </children>
@@ -91,7 +91,7 @@
             </AnchorPane>
          </left>
       </BorderPane>
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="44.0" prefWidth="143.0" style="-fx-background-color: #F7BC0A;" text="Sign out" textFill="#0a6b34" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#startScene" prefHeight="44.0" prefWidth="143.0" style="-fx-background-color: #F7BC0A;" text="Sign out" textFill="#0a6b34" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
          <font>
             <Font size="24.0" />
          </font>
